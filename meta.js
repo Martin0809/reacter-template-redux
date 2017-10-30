@@ -27,9 +27,14 @@ module.exports = {
     "lint": {
       "type": "confirm",
       "message": "Use ESLint to lint your code?"
+    },
+    "mobile": {
+      "type": "confirm",
+      "message": "Whether the program is running on the mobile?"
     }
   },
   "filters": {
-    ".eslintrc.json": "lint"
+    ".eslintrc.json": "lint",
+    ".mobile": "mobile"
   }
 };
